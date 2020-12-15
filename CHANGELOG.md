@@ -1,3 +1,10 @@
+* v2.2.0 - 12/15/2020
+    * MMIO
+        * Add `path` keyword argument to constructor for use with alternate
+          memory character devices (e.g. `/dev/gpiomem`).
+    * SPI
+        * Add support for 32-bit `extra_flags` to property and constructor.
+
 * v2.1.1 - 11/19/2020
     * GPIO
         * Add direction checks for improved error reporting to `write()`,
